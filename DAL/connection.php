@@ -11,10 +11,10 @@
     //constructor and other overwritten methods
     private function __construct()
     {
-        $host="server.infhaarlem.nl";
-        $username="s641716_admin";
-        $password="Egehan1903!";
-        $database="s641716_db";
+        $host="****";
+        $username="****";
+        $password="****";
+        $database="****";
         //Instead of putting the error for every time I use a query. I have decided to put it in a constructor.
          try{
          $this->connection = mysqli_connect($host,$username,$password,$database);
